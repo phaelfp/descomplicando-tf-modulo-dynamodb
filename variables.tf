@@ -1,9 +1,3 @@
-variable "aws_region" {
-  description = "Região da AWS"
-  type        = string
-  default     = "us-east-1"
-}
-
 variable "dynamodb_table_name" {
   description = "Nome da tabela DynamoDB para controle de lock"
   type        = string
