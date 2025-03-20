@@ -1,5 +1,5 @@
 
-resource "aws_dynamodb_table" "terraform_locks" {
+resource "aws_dynamodb_table" "this" {
   name           = var.dynamodb_table_name
   billing_mode   = "PROVISIONED"
   read_capacity  = var.dynamodb_read_capacity
